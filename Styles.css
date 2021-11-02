@@ -1,17 +1,40 @@
 body{
-    background-color: beige;
+    background-color: #778899;
     font-family:Arial, Helvetica, sans-serif
+}
+h1{
+    text-align: Center;
 }
 .assignment {
     display:flex;
     padding: 10px;
-    background: lightcoral;
+    background: rgb(235, 204, 103);
     margin: 10px;
+    border-radius: 20px;
 }
 .assignment img {
 width: 200px;
-padding: 10px;
+margin: 10px;
+border: 5px solid rgb(78, 76, 76) ;
 }
+
+.assignment img:hover{
+    border: 4px solid crimson;
+}
+
 h1{
-    color:gray
+    color: black
+}
+
+h1:hover{
+    color: crimson;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(78, 76, 76);
+}
+
+a:hover{
+    color: crimson;
 }
